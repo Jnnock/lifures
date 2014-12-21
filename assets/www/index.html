@@ -1,0 +1,44 @@
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>丽肤在线</title>
+        <meta http-equiv="Cache-Control" content="max-age=7200" />
+        <link rel="stylesheet" href="dist/mobile/jquery.mobile-1.4.4.min.css">
+        <script src="dist/mobile/jquery.js"></script>
+        <script src="dist/mobile/jquery.mobile-1.4.4.min.js"></script>
+        <script src="cordova.js"></script>
+    </head>
+    <body>
+      <div data-role="page" data-control-title="Home" id="page1">
+        <div data-role="header" data-theme="b">
+      <h1>丽肤在线</h1>
+    </div><!-- /header -->
+        <div data-role="content">
+            <div style=" text-align:center" data-controltype="image">
+                <img style="width:100%;" src="dist/image/i.jpg">
+            </div>
+    <ul data-role="listview" data-filter="true" data-inset="true" data-input="#rich-autocomplete-input" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
+      <li data-role="list-divider" role="heading">我们的服务</li>
+      <li class="ui-first-child"><a href="jinfo.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">日常美容</a></li>
+      <li class="ui-first-child"><a href="jinfo.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">医疗美容</a></li>
+      <li class="ui-first-child"><a href="jinfo.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">前沿资讯</a></li>
+      <li class="ui-first-child"><a href="jquestion2.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">常见问题</a></li>
+    </ul>
+    <input type="button" data-theme='a' value="登入/注册">
+    </div>
+        <div data-role="footer" data-position="fixed" role="contentinfo" class="ui-footer ui-bar-inherit ui-footer-fixed slideup">
+            <div data-role="navbar" class="ui-navbar" role="navigation">
+                <ul class="ui-grid-b">
+                    <li class="ui-block-a"><a href="#" class="ui-btn-active ui-state-persist ui-link ui-btn">首页</a></li>
+                    <li class="ui-block-b"><a href="jquestion.html" class="ui-link ui-btn">问答</a></li>
+                    <li class="ui-block-c"><a href="jstructure.html" class="ui-link ui-btn">机构</a></li>
+                </ul>
+            </div>
+            <h4 style="display:none;" class="ui-title" role="heading" aria-level="1">Footer</h4>
+        </div>
+      </div>
+  </body>
+</html>
